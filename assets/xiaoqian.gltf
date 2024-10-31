@@ -7,27 +7,27 @@
 		{
 			"bufferView":0,
 			"componentType":5125,
-			"count":100668,
+			"count":293010,
 			"type":"SCALAR",
 			"min":[0
 			],
-			"max":[18773
+			"max":[54384
 			]
 		},
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":18774,
+			"count":54385,
 			"type":"VEC3",
-			"min":[-0.317065209,-0.499443054,-0.0495074987
+			"min":[-0.245007336,-0.486976624,-0.15292573
 			],
-			"max":[0.317065209,0.445449829,0.064140439
+			"max":[0.247917891,0.5,0.152925611
 			]
 		},
 		{
 			"bufferView":2,
 			"componentType":5126,
-			"count":18774,
+			"count":54385,
 			"type":"VEC3",
 			"min":[0,0,0
 			],
@@ -37,7 +37,7 @@
 		{
 			"bufferView":3,
 			"componentType":5126,
-			"count":18774,
+			"count":54385,
 			"type":"VEC3",
 			"min":[1,1,1
 			],
@@ -47,7 +47,7 @@
 		{
 			"bufferView":4,
 			"componentType":5126,
-			"count":18774,
+			"count":54385,
 			"type":"VEC3",
 			"min":[0,0,0
 			],
@@ -57,6 +57,76 @@
 		{
 			"bufferView":5,
 			"componentType":5126,
+			"count":54385,
+			"type":"VEC2",
+			"min":[-0.0270147827,-0.773347139
+			],
+			"max":[9.98595428,1.05310333
+			]
+		},
+		{
+			"bufferView":6,
+			"componentType":5126,
+			"count":54385,
+			"type":"VEC3",
+			"min":[-0.999989092,-0.999998271,-1
+			],
+			"max":[0.99998349,0.999766111,0.999998987
+			]
+		},
+		{
+			"bufferView":7,
+			"componentType":5125,
+			"count":100668,
+			"type":"SCALAR",
+			"min":[0
+			],
+			"max":[18773
+			]
+		},
+		{
+			"bufferView":8,
+			"componentType":5126,
+			"count":18774,
+			"type":"VEC3",
+			"min":[-0.317065209,-0.499443054,-0.0495074987
+			],
+			"max":[0.317065209,0.445449829,0.064140439
+			]
+		},
+		{
+			"bufferView":9,
+			"componentType":5126,
+			"count":18774,
+			"type":"VEC3",
+			"min":[0,0,0
+			],
+			"max":[0,0,0
+			]
+		},
+		{
+			"bufferView":10,
+			"componentType":5126,
+			"count":18774,
+			"type":"VEC3",
+			"min":[1,1,1
+			],
+			"max":[1,1,1
+			]
+		},
+		{
+			"bufferView":11,
+			"componentType":5126,
+			"count":18774,
+			"type":"VEC3",
+			"min":[0,0,0
+			],
+			"max":[0,0,0
+			]
+		},
+		{
+			"bufferView":12,
+			"componentType":5126,
 			"count":18774,
 			"type":"VEC2",
 			"min":[0.000420570374,0.00227588415
@@ -65,7 +135,7 @@
 			]
 		},
 		{
-			"bufferView":6,
+			"bufferView":13,
 			"componentType":5126,
 			"count":18774,
 			"type":"VEC3",
@@ -78,56 +148,98 @@
 	"buffers":[
 		{
 			"uri":"xiaoqian_data.bin",
-			"byteLength":1679304,
+			"byteLength":6549524,
 			"name":"main_buffer"
 		}
 	],
 	"bufferViews":[
 		{
 			"buffer":0,
+			"byteLength":1172040,
+			"target":34963
+		},
+		{
+			"buffer":0,
+			"byteOffset":1172040,
+			"byteLength":652620,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteOffset":1824660,
+			"byteLength":652620,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteOffset":2477280,
+			"byteLength":652620,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteOffset":3129900,
+			"byteLength":652620,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteOffset":3782520,
+			"byteLength":435080,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteOffset":4217600,
+			"byteLength":652620,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteOffset":4870220,
 			"byteLength":402672,
 			"target":34963
 		},
 		{
 			"buffer":0,
-			"byteOffset":402672,
+			"byteOffset":5272892,
 			"byteLength":225288,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteOffset":627960,
+			"byteOffset":5498180,
 			"byteLength":225288,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteOffset":853248,
+			"byteOffset":5723468,
 			"byteLength":225288,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteOffset":1078536,
+			"byteOffset":5948756,
 			"byteLength":225288,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteOffset":1303824,
+			"byteOffset":6174044,
 			"byteLength":150192,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteOffset":1454016,
+			"byteOffset":6324236,
 			"byteLength":225288,
 			"target":34962
 		}
 	],
 	"nodes":[
 		{
-			"name":"geo1",
+			"name":"xiaoqian",
 			"mesh":0
 		}
 	],
@@ -143,7 +255,18 @@
 						"_fbx_translation":2,
 						"POSITION":1
 					},
-					"indices":0,
+					"indices":0
+				},
+				{
+					"attributes":{
+						"NORMAL":13,
+						"_fbx_rotation":11,
+						"TEXCOORD_0":12,
+						"_fbx_scale":10,
+						"_fbx_translation":9,
+						"POSITION":8
+					},
+					"indices":7,
 					"material":0
 				}
 			],
