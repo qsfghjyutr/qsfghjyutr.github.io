@@ -8,7 +8,9 @@
 </head>
 <body>
        <a-scene arjs embedded>
-           <a-entity gltf-model="assets/xiaoqian.gltf" position="0 0 -1" animation="property: rotation; to: 0 360 0; loop: true; dur: 3000;"></a-entity>
+           <a-marker preset="hiro">
+               <a-entity gltf-model="assets/xiaoqian.glb" position="0 1 -1" animation="property: rotation; to: 0 360 0; loop: true; dur: 3000;"></a-entity>
+           </a-marker>
        </a-scene>
 </body>
 </html>
