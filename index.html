@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <title>test-vr</title>
     <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@7.5.0/dist/aframe-extras.min.js"></script>
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
 </head>
 <body>
-       <a-scene arjs embedded>
-           <a-entity gltf-model="assets/xiaoqian.glb" position="0 0.5 -1" animation="property: rotation; to: 0 360 0; loop: true; dur: 3000;"></a-entity>
+       <a-scene>
+           <a-ambient-light color="#444"></a-ambient-light>
+            <a-directional-light color="#fff" position="0 1 0"></a-directional-light>
+               <a-entity gltf-model="assets/11_14/test2.glb" position="0 1 -1" scale="0.3 0.3 0.3" animation-mixer=""></a-entity>
+            <a-animation loop="indefinite"></a-animation>
        </a-scene>
 </body>
 </html>
